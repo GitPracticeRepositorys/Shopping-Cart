@@ -37,7 +37,7 @@ pipeline {
             }
         }
         
-        stage('DockerBuild & Push') {
+        stage('Docker') {
             steps {
                 script {
                         sh "docker build -t shivakrishna99 -f docker/Dockerfile ."
