@@ -39,7 +39,7 @@ jobs:
     inputs:
       command: 'push'
       containerRegistry: 'Docker-Hub-Connection'
-      repository: 'shivakrishna99/Shopping-Cart'
+      repository: 'shivakrishna99/az-Shopping-Cart'
       tags: |
         latest
         $(Build.BuildId)
